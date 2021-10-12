@@ -9,7 +9,7 @@ COLOR_SPACE: 'RGB'
 DATASET:
   DATASET: 'iNaturalist'
   TRAIN_JSON: './data/ImageNetLT_train_reorder2.json'
-  VALID_JSON: './data/ImageNetLT_test_reorder2.json'
+  VALID_JSON: './data/ImageNetLT_val_reorder2.json'
 
 BACKBONE:
   TYPE: 'res10_group'
@@ -41,7 +41,7 @@ TRAIN:
 
 
     MOMENTUM: 0.9
-    WEIGHT_DECAY: 1e-6
+    WEIGHT_DECAY: 1e-4
 
   LR_SCHEDULER:
     TYPE: 'warmup'
