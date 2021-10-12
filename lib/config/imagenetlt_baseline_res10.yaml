@@ -36,8 +36,8 @@ TRAIN:
   OPTIMIZER:
     TYPE: 'SGD_group'
     BASE_LR: 0.08
-    #EXPERT: [0.8, 0.4]
-    EXPERT: [0.4, 0.1]
+    EXPERT: [0.8, 0.4]
+    #EXPERT: [0.4, 0.1]
 
 
     MOMENTUM: 0.9
